@@ -8,6 +8,7 @@ from datetime import datetime, timedelta
 from decimal import Decimal
 from typing import List, Optional
 from urllib.parse import urlparse
+from fastapi import Request
 
 # Azure Storage Imports
 from azure.storage.blob import (
